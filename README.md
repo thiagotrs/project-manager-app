@@ -2,7 +2,7 @@
 
 ## About
 
-Rental Car API for management orders, cars, stations and price.
+App for project management.
 
 ## Technologies
 
