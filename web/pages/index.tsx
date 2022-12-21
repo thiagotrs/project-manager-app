@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -21,7 +22,9 @@ export default function Home() {
           <h2>Password: </h2>
           <input type="text" name="password" id="password" />
           <br />
+          <Link href="/projects" as={`/projects`} passHref >
           <button type="submit">Signup</button>
+          </Link>
         </form>
       </main>
     </>
